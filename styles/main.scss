@@ -1,0 +1,32 @@
+@import './normalize';
+@import './variables';
+@import './mixin';
+
+
+
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+
+    @media only screen and (max-width:992px){
+        max-width: 960px;
+    }
+    @media only screen and (max-width:768px){
+        max-width:720px ;
+    }
+    @media only screen and (max-width:576px){
+        max-width: 540px;
+    }
+
+    h1{
+        @include textStyles(16px,normal,normal,auto,grey,auto);
+    }
+ 
+}
