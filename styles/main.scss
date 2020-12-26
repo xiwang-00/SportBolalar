@@ -1371,7 +1371,6 @@ fieldset{
 
 .place {
     width: 100%;
-    height: 76px;
     background: #FFF;
     border-radius: 12px;
     margin: 28px auto;
@@ -1381,6 +1380,7 @@ fieldset{
     box-sizing: border-box;
     padding: 11px 12px;
     position: relative;
+    flex-wrap: wrap;
 
     &--one {
         background: #FFF4E9;
