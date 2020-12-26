@@ -2762,6 +2762,7 @@ fieldset legend {
   }
   .arrow {
     left: 150px !important;
+    width: 200px;
   }
   @-webkit-keyframes anima {
     20% {
@@ -2889,4 +2890,4 @@ fieldset legend {
     }
   }
 }
-/*# sourceMappingURL=main.css.map */rceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
