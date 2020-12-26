@@ -76,7 +76,7 @@ a {
   right: 0;
   margin: auto;
   background: #fff;
-  z-index: -2;
+  z-index: 0;
   border-radius: 24px;
   padding: 64px 44px;
   -webkit-box-sizing: border-box;
@@ -87,7 +87,7 @@ a {
   width: 504px;
   height: 640px;
   opacity: 1;
-  z-index: 3;
+  z-index: 2;
 }
 
 .modal__text {
@@ -429,7 +429,7 @@ body.no-scroll {
           backdrop-filter: blur(4px);
   position: fixed;
   width: 100%;
-  z-index: 0;
+  z-index: 2;
   height: 84px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -439,7 +439,6 @@ body.no-scroll {
 
 .menu-mobile.block {
   height: 512px;
-  z-index: 2;
 }
 
 .menu-mobile__item {
