@@ -1434,6 +1434,7 @@ fieldset{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
     }
 
     &__text {
@@ -2295,6 +2296,19 @@ fieldset{
     padding-left: 30px;
 }
 
+.carousel-footer {
+    position: relative;
+
+    &--inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+
+}
+
 .footer-foot__inner{
     flex-direction: column-reverse;
     align-items: flex-start;
@@ -2331,6 +2345,16 @@ fieldset{
     animation-name: anima;
     animation-duration: 20s;
     animation-iteration-count: infinite;
+}
+
+.arrows{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arrow {
+    left: 150px !important;
 }
 
 @keyframes anima{
