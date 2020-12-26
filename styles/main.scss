@@ -2367,6 +2367,7 @@ fieldset{
 
 .animated{
     display: block;
+    margin: 30px auto 50px auto; 
     height: 200px!important;
     width: 304px!important;
 
@@ -2374,7 +2375,7 @@ fieldset{
     &__inner{
     display: block;
     border-radius: 16px;
-    margin: 30px auto;
+    margin: 0auto;
     overflow: hidden;
     height: 200px;
     width: 304px;
