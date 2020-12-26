@@ -1357,6 +1357,7 @@ body {
         }
     }
 }
+
 fieldset{
     border: none;
     border-top:2px solid #FEA244;
@@ -1379,6 +1380,7 @@ fieldset{
     align-items: center;
     box-sizing: border-box;
     padding: 11px 12px;
+    position: relative;
 
     &--one {
         background: #FFF4E9;
@@ -1413,16 +1415,10 @@ fieldset{
     }
 }
 
-.place-end {
-    width: 81px;
-    height: 76px;
-    position: relative;
-
-    &__img {
+.place-end__img{
         position: absolute;
         top: 0;
         right: 0;
-    }
 }
 
 .carousel-footer {
