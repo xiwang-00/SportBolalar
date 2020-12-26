@@ -2813,8 +2813,8 @@ fieldset legend {
     border-radius: 16px;
     margin: 30px auto;
     overflow: hidden;
-    height: 260px;
-    width: 416px;
+    height: 200px;
+    width: 304px;
     -webkit-animation-name: animaTwo;
             animation-name: animaTwo;
     -webkit-animation-duration: 20s;
