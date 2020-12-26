@@ -2367,8 +2367,8 @@ fieldset{
 
 .animated{
     display: block;
-    height: 200px;
-    width: 304px;
+    height: 200px!important;
+    width: 304px!important;
 
     border-radius: 16px;
     &__inner{
